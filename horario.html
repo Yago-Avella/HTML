@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de Tabla HTML</title>
 </head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    </style>
+
 <body>
 
-    <h1>Horario 2024/25</h1>
+    <h1 class="contenedor">Horario 2024/25</h1>
 
     <table border="1">
             <tr>
@@ -39,7 +52,7 @@
             </tr>
             <tr>
                 <td>18:00</td>
-                <td colspan="5">patio</td>
+                <td colspan="5">Patio</td>
             </tr>
             <tr>
                 <td>18:20</td>
@@ -66,6 +79,6 @@
                 <td colspan="5">A Casa</td>
             </tr>
     </table>
-
+<!--> este es el horario de 2024/25<-->
 </body>
 </html>
